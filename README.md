@@ -108,6 +108,33 @@ civitai-easy-installer/
 
 <hr>
 
+<hr>
+
+<h2>📦 Dependencies</h2>
+<p>Before running the server backend, make sure the following Node.js packages are installed:</p>
+<ul>
+  <li><code>ws</code> — WebSocket server for communication with the Chrome extension</li>
+  <li><code>ssh2</code> — SSH client to send commands and download models directly to the server</li>
+  <li><code>asn1</code>, <code>bcrypt-pbkdf</code>, <code>cpu-features</code>, <code>nan</code>, <code>safer-buffer</code>, <code>tweetnacl</code> — internal dependencies required by <code>ssh2</code></li>
+</ul>
+
+<p>You can install all dependencies via <code>npm install</code> inside the <code>server/</code> folder:</p>
+<pre>
+cd server
+npm install
+</pre>
+
+<p>After installation, you can run the backend using:</p>
+<pre>
+node runner.js
+</pre>
+<p>or</p>
+<pre>
+Runner.bat
+</pre>
+
+<hr>
+
 <h2>⚙️ Server Requirements</h2>
 <ul>
   <li>Linux server (Ubuntu/Debian recommended)</li>
