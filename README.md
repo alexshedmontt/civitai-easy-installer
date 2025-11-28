@@ -16,10 +16,6 @@
 Civitai Easy Installer is a <strong>Chrome extension + Node.js runner</strong> that allows you to download models directly to your GPU server with <strong>one click</strong>. The extension injects a <em>Download on Server</em> button next to every model download on Civitai. It automatically detects the type of model and places it in the correct ComfyUI folder.
 </p>
 
-<p align="center">
-<img src="./sh3.jpg" alt="Extension Screenshot" width="400">
-</p>
-
 <ul>
   <li>Automatically detects model type (Checkpoint, LoRA, VAE, Upscaler, ControlNet, Embedding, YOLO)</li>
   <li>Downloads directly to server via SSH</li>
@@ -27,6 +23,10 @@ Civitai Easy Installer is a <strong>Chrome extension + Node.js runner</strong> t
   <li>Requires WebSocket runner (<code>Runner.bat</code>) to be running locally</li>
   <li>Supports Civitai token (HF token optional and not recommended)</li>
 </ul>
+
+<p align="center">
+<img src="./sh3.jpg" alt="Extension Screenshot" width="400">
+</p>
 
 <hr>
 
