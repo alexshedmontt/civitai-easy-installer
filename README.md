@@ -17,7 +17,7 @@ Civitai Easy Installer is a <strong>Chrome extension + Node.js runner</strong> t
 </p>
 
 <p align="center">
-<img src="./sh2.jpg" alt="Extension Screenshot" width="400">
+<img src="./sh3.jpg" alt="Extension Screenshot" width="400">
 </p>
 
 <ul>
@@ -85,11 +85,6 @@ Civitai Easy Installer is a <strong>Chrome extension + Node.js runner</strong> t
   <li>Enter your Civitai token, HF token (optional), server host, and port in the popup.</li>
   <li>Click "Download on Server" on any Civitai model page.</li>
 </ol>
-
-
-<p align="center">
-<img src="./sh3.jpg" alt="Extension Screenshot" width="400">
-</p>
 
 <hr> 
 
