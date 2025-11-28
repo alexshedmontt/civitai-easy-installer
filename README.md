@@ -1,0 +1,2 @@
+# civitai-easy-installer
+any
